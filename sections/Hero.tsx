@@ -1,5 +1,5 @@
 "use client"
-import { Chip, Image, Button } from '@heroui/react'
+import { Chip, Image } from '@heroui/react'
 import React from 'react'
 import { CHIPSTYLE } from '@/constants/constant'
 
@@ -20,12 +20,12 @@ const Hero = () => {
         MusicGen is an AI-powered music assistant that allows you to create music like a pro.
       </p>
       <div className="flex flex-col items-center justify-center gap-6 sm:flex-row">
-        <Button
-          className="md:hidden  h-10 w-[163px] bg-default-foreground px-[16px] py-[10px] text-sm leading-5 text-background font-medium"
+        {/* <Button
+          className="h-10 w-[163px] bg-default-foreground px-[16px] py-[10px] text-sm leading-5 text-background font-medium"
           radius="full"
         >
           Get Started
-        </Button>
+        </Button> */}
       </div>
     </section>
 

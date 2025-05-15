@@ -3,7 +3,7 @@ import { Button, Image, Card, CardBody } from '@heroui/react'
 import { Icon } from '@iconify/react';
 const CallToAction = () => {
   return (
-    <Card className="group w-full max-w-6xl mx-auto rounded-xl shadow-sm border bg-black border-zinc-800 relative overflow-hidden before:hidden md:before:block before:absolute before:inset-0 before:-translate-x-[40%] before:bg-[linear-gradient(45deg,transparent_25%,rgba(255,255,255,0.1)_50%,transparent_75%)] before:z-[1] hover:before:translate-x-[200%] before:transition-all before:duration-[1.5s] before:ease-in-out">
+    <Card className="group w-full max-w-6xl mx-auto rounded-xl shadow-sm border bg-black border-zinc-800 relative overflow-hidden before:absolute before:inset-0 before:-translate-x-[40%] before:bg-[linear-gradient(45deg,transparent_25%,rgba(255,255,255,0.1)_50%,transparent_75%)] before:z-[1] hover:before:translate-x-[50%] before:transition-all before:duration-[1.5s] before:ease-in-out">
       {/* Content */}
       <CardBody className="relative z-10 py-16 px-8 md:px-12 lg:px-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
