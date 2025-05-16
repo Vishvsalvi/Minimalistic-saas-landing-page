@@ -29,7 +29,7 @@ export default function Home() {
     {/* Hero Image section */}
     <main className="container mx-auto flex flex-1 flex-col items-center justify-center overflow-hidden px-8">
     <section id="home" className="mt-10 z-20 flex flex-col items-center justify-center gap-[18px] sm:gap-6 mb-8">
-    <Chip className={CHIPSTYLE}>We raised $100M in Series A</Chip>
+    <Chip className="text-xs bg-zinc-900 text-white relative overflow-hidden before:absolute before:inset-0 before:bg-gradient-to-b before:from-white/20 before:to-transparent before:h-1/6">We raised $100M in Series A</Chip>
       <div className="text-center text-[clamp(40px,10vw,44px)] font-bold leading-[1.2] tracking-tighter sm:text-[64px]">
         <div className=" bg-[linear-gradient(91deg,_#FFF_32.88%,_rgba(255,255,255,0.4)_99.12%)] bg-clip-text text-transparent">
           AI Agents To Streamline <br /> 
